@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Login  -->
+    <!-- Form -->
+    <form action="" class="login">
+      <!-- Title -->
+      <h1>LOGIN</h1>
+      <p class="stan">RaffiDev - Website</p>
+      <!-- Email -->
+      <!-- Error Message -->
+      <p class="error" id="error-email"></p>
+      <div class="text-login">
+        <input type="text" id="email" name="email" required autocomplete="off" />
+        <label for="email">Email</label>
+      </div>
+
+      <!-- Error Message -->
+      <p class="error" id="error-password"></p>
+      <!-- Password -->
+      <div class="text-login">
+        <input type="password" id="password" name="password" required autocomplete="off" />
+        <label for="password">Password</label>
+        <div class="showpass fas fa-eye-slash"></div>
+      </div>
+
+      <!-- Button -->
+      <input type="button" value="Sign In" class="text-center btn btn-blue" onclick="validationLogin()" />
+      <p class="register">Don't have an account? <a href="register.html">Sign Up</a></p>
+    </form>
+    <script src="./js/login.js"></script>
+  </body>
+</html>

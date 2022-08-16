@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- Register  -->
+    <!-- Form -->
+    <form action="" class="register">
+      <!-- Title -->
+      <h1>REGISTER</h1>
+      <p class="stan">RaffiDev Website</p>
+
+      <!-- Name -->
+      <!-- Error Message -->
+      <p class="error" id="error-name"></p>
+      <div class="text-register">
+        <input type="text" id="name" name="name" required autocomplete="off" />
+        <label for="name">Name</label>
+      </div>
+
+      <!-- Email -->
+      <!-- Error Message -->
+      <p class="error" id="error-email"></p>
+      <div class="text-register">
+        <input type="email" id="email" name="email" required autocomplete="off" />
+        <label for="email">Email</label>
+      </div>
+
+      <!-- No Telepon -->
+      <!-- Error Message -->
+      <p class="error" id="error-notelp"></p>
+      <div class="text-register">
+        <input type="number" id="notelp" name="notelp" required autocomplete="off" />
+        <label for="notelp">No telepon</label>
+      </div>
+
+      <!-- Password -->
+      <!-- Error Message -->
+      <p class="error" id="error-password"></p>
+      <div class="text-register">
+        <input type="password" id="password" name="password" required autocomplete="off" />
+        <label for="password">Password</label>
+        <div class="showpass fas fa-eye-slash"></div>
+      </div>
+
+      <!-- Button -->
+      <input type="button" value="Register" class="text-center btn btn-blue" onclick="validationRegister()" />
+      <p class="login">Already have an account? <a href="index.html">Sign in</a></p>
+    </form>
+    <script src="./js/register.js"></script>
+  </body>
+</html>
