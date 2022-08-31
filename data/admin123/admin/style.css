@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=IBM+Plex+Mono:wght@100&family=Koulen&family=Quicksand:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+* {
+  font-family: "Chakra Petch", sans-serif !important;
+}
+
+body ul {
+  list-style: none;
+}
+body {
+  color: aqua !important;
+  background-color: rgb(0, 4, 29) !important;
+}
+.header-img {
+  width: 300px;
+}
+.header {
+  font-size: 3em;
+}
+.line {
+  margin-top: 10px;
+  height: 2px;
+  width: 10em;
+  background-color: white;
+  margin-bottom: 30px;
+}
+table {
+  border-radius: 10px !important;
+  border: 2px solid aqua;
+}
+table tr th {
+  color: aqua;
+}
+table td {
+  color: aqua;
+}
+.input-control {
+  transition: 0.2s;
+  border-radius: 20px;
+  color: aqua;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid aqua !important;
+  background-color: rgb(0, 4, 29) !important;
+}
+.input-control:focus {
+  border: 1px solid aqua !important;
+  box-shadow: 0px 14px 56px -11px aqua !important;
+}
+.btn-primary,
+.btn-danger {
+  background-color: aqua !important;
+  color: rgb(0, 4, 29) !important;
+  box-shadow: 0px 14px 56px -11px aqua !important;
+}
