@@ -21,7 +21,7 @@ if (!isset($_SESSION["card"])) {
     <title>ISCI Team | ISCI Agent Card</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../../assets/img/isci777.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/raffidevbulet.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"

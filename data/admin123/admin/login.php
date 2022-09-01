@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login ISCI Administrator Account</title>
-    <link rel="shortcut icon" href="../../../assets/img/isci777.png" type="image/x-icon">
+    <title>Login - Administrator Account</title>
+    <link rel="shortcut icon" href="../../../img/raffidevbulet.png" type="image/x-icon">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="../../../assets/css/challenge.css">
-    <link rel="stylesheet" href="../../../node_modules/@sweetalert2/theme-borderless/borderless.css">
+    <link rel="stylesheet" href="../../../css/challenge.css">
+    <link rel="stylesheet" href="./node_modules/@sweetalert2/theme-borderless/borderless.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" />
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>Login ISCI Administrator Account</h1>
+                    <h1>Login Administrator Account</h1>
                     <div class="line"></div>
                     <br><br>
                     <form action="" method="POST">
@@ -45,15 +45,15 @@
 </body>
 
 <!-- JS -->
-<script src="../../../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="./node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
 <?php 
 
 if ( isset($_POST["submit"]) ) {
     session_start();
     
-   $username = "isciAdmin123";
-   $password = "isciAdmin123";
+   $username = "Admin";
+   $password = "RaffiDev160209s";
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
     $_SESSION["admin"] = true;
@@ -65,7 +65,7 @@ if ( isset($_POST["submit"]) ) {
             Swal.fire({
             icon: 'error',
             title: 'Error...',
-            text: 'Username / Password kamu salah!',
+            text: 'your username/password is wrong',
             })
         </script>";
    }

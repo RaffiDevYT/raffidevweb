@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISCI Team | Get Membership Card</title>
-    <link rel="shortcut icon" href="../assets/img/isci777.png" type="image/x-icon">
+    <title>Login | Get Membership Card</title>
+    <link rel="shortcut icon" href="../img/raffidevbulet.png" type="image/x-icon">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="../assets/css/challenge.css">
+    <link rel="stylesheet" href="../css/challenge.css">
     <link rel="stylesheet" href="../node_modules/@sweetalert2/theme-borderless/borderless.css">
 
     <!-- Bootstrap CSS -->
@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-6">
                     
-                    <h1>Login ISCI Account</h1>
+                    <h1>Login Account</h1>
                     <div class="line"></div>
                     <br><br>
                     <form action="" method="POST">
@@ -52,8 +52,8 @@
 if ( isset($_POST["submit"]) ) {
     session_start();
     
-   $username = "isciTeam123";
-   $password = "isciTeam123";
+   $username = "Admin";
+   $password = "RaffiDev160209";
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
     $_SESSION["card"] = true;
