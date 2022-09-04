@@ -53,7 +53,7 @@ if ( isset($_POST["submit"]) ) {
     session_start();
     
    $username = "Admin";
-   $password = "RaffiDev160209s";
+   $password = "RaffiDev160209";
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
     $_SESSION["admin"] = true;

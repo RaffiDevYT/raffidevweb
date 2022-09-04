@@ -1,6 +1,6 @@
 <?php 
 // koneksi ke database
-$conn = mysqli_connect("sql113.epizy.com", "epiz_32241845", "UdcXpiWbNC2IBV", "epiz_32241845_isci");
+$conn = mysqli_connect("sql213.epizy.com", "epiz_32502898", "CG0vsYzFzCqUrS", "epiz_32502898_XXX");
 
 
 function query($query) {
