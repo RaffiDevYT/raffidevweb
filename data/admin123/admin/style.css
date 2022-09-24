@@ -52,3 +52,14 @@ table td {
   color: rgb(0, 4, 29) !important;
   box-shadow: 0px 14px 56px -11px aqua !important;
 }
+.back {
+  padding: 10px 20px 10px 20px;
+  border: 1px solid aqua;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+.back:hover {
+  color: rgb(0, 4, 29);
+  background-color: aqua;
+  border-radius: 10px;
+}

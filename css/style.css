@@ -21,7 +21,7 @@
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--title-color);
+  color: #2196f3;
 }
 
 .header_area .main-menu .navbar-nav .active a {
@@ -36,6 +36,56 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 20px;
+  left: 0.3em;
+  bottom: 0.3em;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1.5em);
 }
 
 /* end navigation */
@@ -293,3 +343,13 @@ footer.footer-area .social a:hover > i {
 }
 
 /* End Footer */
+
+/* Dark Mode */
+
+body.dark-mode {
+  background-color: #0f0f0e !important;
+}
+
+body.dark-mode .title-text {
+  color: #2196f3 !important;
+}

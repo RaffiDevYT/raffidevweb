@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Data Siswa</title>
+    <title>Add Data Agent</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,37 +14,37 @@
 <body>
     <center>
         <br><br><br><br>
-        <h1>Tambah Data Agen</h1>
+        <h1>Add Data Agent</h1>
         <div class="line"></div>
         <br>
 
         <form action="" method="post" enctype="multipart/form-data">
             <ul>
                 <li>
-                    <label for="nama">Nama : </label>
-                    <input type="text" class="input-control" placeholder="nama..." name="nama" id="nama" required
+                    <label for="nama">Nama: </label>
+                    <input type="text" class="input-control" placeholder="Example..." name="nama" id="nama" required
                         autocomplete="off">
                 </li>
                 <br>
                 <li>
-                    <label for="telepon">Telepon : </label>
-                    <input type="text" class="input-control" placeholder="no telepon..." name="telepon" id="telepon"
+                    <label for="telepon">Phone Number: </label>
+                    <input type="text" class="input-control" placeholder="Example..." name="telepon" id="telepon"
                         required autocomplete="off">
                 </li>
                 <br>
                 <li>
-                    <label for="email">Codename : </label>
-                    <input type="text" class="input-control" placeholder="email..." name="email" id="email" required
+                    <label for="email">Fakename: </label>
+                    <input type="text" class="input-control" placeholder="Example..." name="email" id="email" required
                         autocomplete="off">
                 </li>
                 <br>
                 <li>
-                    <label for="gambar">Gambar : </label>
+                    <label for="gambar">Image: </label>
                     <input class="input-control" type="file" name="gambar" id="gambar">
                 </li>
                 <br>
                 <li>
-                    <button type="submit" class="btn btn-primary" name="submit">Tambah Data!</button>
+                    <button type="submit" class="btn btn-primary" name="submit">Send Data</button>
                 </li>
             </ul>
 
@@ -74,14 +74,14 @@ if( isset($_POST["submit"]) ) {
  if( tambah($_POST) > 0 ) {
      echo "
      <script>
-        alert('data berhasil ditambahkan');
+        alert('Successfully Added Data');
         document.location.href = 'index.php'
      </script>   
      ";
  } else {
     echo "
     <script>
-       alert('data gagal ditambahkan');
+       alert('Failed To Add Data');
        document.location.href = 'index.php'
     </script>   
     ";

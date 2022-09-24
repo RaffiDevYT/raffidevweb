@@ -28,11 +28,10 @@
                     <div class="line"></div>
                     <br><br>
                     <form action="" method="POST">
-                        <input type="text" name="username" id="username" class="form-control" autocomplete="off"
+                        <input type="username" name="username" id="username" class="form-control" autocomplete="off"
                             placeholder="Username">
                         <br>
-                        <input type="text" name="password" id="password" class="form-control" autocomplete="off"
-                            placeholder="Password">
+                        <input type="password" name="password" id="password" class="form-control" autocomplete="off" placeholder="Password">
                         <br><br>
                         <button type="submit" name="submit" class="submit">Submit</button>
                     </form>
@@ -52,7 +51,7 @@
 if ( isset($_POST["submit"]) ) {
     session_start();
     
-   $username = "Admin";
+   $username = "Agent";
    $password = "RaffiDev160209";
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {

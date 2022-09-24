@@ -7,7 +7,7 @@ if ( !isset($_SESSION["admin"]) ) {
 }
 
 require 'functions.php';
-$siswa = query("SELECT * FROM siswa ORDER BY id");
+$siswa = query("SELECT * FROM raffidevweb ORDER BY id");
 
 // tombol cari diklik 
 if( isset($_POST["cari"]) ) {
@@ -22,8 +22,8 @@ if( isset($_POST["cari"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Admin</title>
-
+    <title>Admin Page</title>
+    <link rel="shortcut icon" href="../../../img/raffidevbulet.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
     <!-- CSS Bootstrap -->
@@ -36,13 +36,15 @@ if( isset($_POST["cari"]) ) {
 
 <body>
 
-    <br><br><br><br><br>
+    <br><br>
+    <a href="login.php" class="back">Back</a>
+
+    <br><br><br>
     <center>
 
 
-        <img src="img/isci777.png" class="header-img" alt="">
-
-        <h1 class="header">Daftar Agen</h1>
+        <img src="../../../img/raffidevbulet.png" class="header-img" alt="">
+        <h1 class="header">List Agent</h1>
         <div class="line"></div>
 
         <a href="tambah.php" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -57,7 +59,7 @@ if( isset($_POST["cari"]) ) {
         <form action="" method="post">
 
             <input type="text" class="input-control" name="keyword" size="40" autofocus
-                placeholder="Cari beberapa data agen..." autocomplete="off"><br><br>
+                placeholder="Search Some Data Agent" autocomplete="off"><br><br>
 
 
             <button type="submit" class="btn btn-primary" name="cari"><svg xmlns="http://www.w3.org/2000/svg" width="16"
@@ -77,11 +79,11 @@ if( isset($_POST["cari"]) ) {
 
             <tr>
                 <th>No.</th>
-                <th>Aksi</th>
-                <th>Gambar</th>
-                <th>telepon</th>
+                <th>Edit</th>
+                <th>Image</th>
+                <th>Phone Number</th>
                 <th>Nama</th>
-                <th>Codename</th>
+                <th>Fakename</th>
             </tr>
 
             <?php $i = 1; ?>
@@ -99,7 +101,7 @@ if( isset($_POST["cari"]) ) {
                                 d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                         </svg></a>
                     <a href="hapus.php?id=<?= $row["id"]; ?>"
-                        onclick="return confirm('yakin ingin menghapus data ini?');" class="btn btn-danger"><svg
+                        onclick="return confirm('Are you sure you want to delete this data?');" class="btn btn-danger"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-trash-fill" viewBox="0 0 16 16">
                             <path
@@ -121,7 +123,7 @@ if( isset($_POST["cari"]) ) {
         </div>
         <br><br><br>
         <footer>
-            <p>Copyright &copy; 2021 - All Right Reserved</p>
+            <p>Copyright &copy; 2021 - All Right Reserved.</p>
         </footer>
         <br><br><br><br>
     </center>

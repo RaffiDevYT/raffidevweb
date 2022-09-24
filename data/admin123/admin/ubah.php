@@ -24,14 +24,14 @@ if( isset($_POST["submit"]) ) {
  if( ubah($_POST) > 0 ) {
      echo "
      <script>
-        alert('data berhasil diubah');
+        alert('Successfully Changed Data');
         document.location.href = 'index.php'
      </script>   
      ";
  } else {
     echo "
     <script>
-       alert('data gagal diubah');
+       alert('Failed To Change Data');
        document.location.href = 'index.php'
     </script>   
     ";
@@ -46,7 +46,7 @@ if( isset($_POST["submit"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubah Data Siswa</title>
+    <title>Changed Data Agent</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -55,7 +55,7 @@ if( isset($_POST["submit"]) ) {
 <body>
     <center>
         <br><br><br><br>
-        <h1>Ubah Data Agen</h1>
+        <h1>Changed Data Agent</h1>
         <div class="line"></div>
         <br>
 
@@ -64,25 +64,25 @@ if( isset($_POST["submit"]) ) {
             <input type="hidden" name="gambarLama" value="<?= $mhs["gambar"]; ?>">
             <ul>
                 <li>
-                    <label for="nama">Nama : </label>
+                    <label for="nama">Nama: </label>
                     <input type="text" class="input-control" name="nama" id="nama" required
                         value="<?= $mhs["nama"]; ?>">
                 </li>
                 <br>
                 <li>
-                    <label for="telepon">Telepon : </label>
+                    <label for="telepon">Phone Number: </label>
                     <input type="text" class="input-control" name="telepon" id="telepon" required
                         value="<?= $mhs["telepon"]; ?>">
                 </li>
                 <br>
                 <li>
-                    <label for="email">Codename : </label>
+                    <label for="email">Fakename: </label>
                     <input type="text" class="input-control" name="email" id="email" required
                         value="<?= $mhs["email"]; ?>">
                 </li>
                 <br>
                 <li>
-                    <label for="gambar">Gambar : </label><br>
+                    <label for="gambar">Image: </label><br>
                     <img src="img/<?= $mhs['gambar']; ?>" width="100" height="100" class="rounded-circle"><br>
                     <br>
                     <input class="input-control" type="file" name="gambar" id="gambar">

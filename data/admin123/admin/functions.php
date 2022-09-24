@@ -1,6 +1,6 @@
 <?php 
 // koneksi ke database
-$conn = mysqli_connect("sql213.epizy.com", "epiz_32502898", "CG0vsYzFzCqUrS", "epiz_32502898_XXX");
+$conn = mysqli_connect("sql213.epizy.com", "epiz_32502898", "CG0vsYzFzCqUrS", "epiz_32502898_raffidevweb");
 
 
 function query($query) {
@@ -27,7 +27,7 @@ function tambah($data) {
         return false;
     }
 
-      $query = "INSERT INTO siswa
+      $query = "INSERT INTO raffidevweb
       VALUES
       ('', '$nama', '$telepon', '$email', '$gambar')
   ";
@@ -40,7 +40,7 @@ function tambah($data) {
 
 function hapus($id) {
     global $conn;
-    mysqli_query($conn, "DELETE FROM siswa WHERE id = $id");
+    mysqli_query($conn, "DELETE FROM raffidevweb WHERE id = $id");
     return mysqli_affected_rows($conn);
 }
 
@@ -55,7 +55,7 @@ function upload() {
     // cek apakah tidak ada gambar yg diupload
     if ( $error === 4 ) {
         echo "<script>
-                alert('pilih gambar terlebih dahulu!');
+                alert('Choose the picture first');
             </script>";
         return false;
     }
@@ -75,7 +75,7 @@ function upload() {
     // cek jika ukurannya terlalu besar
    if ( $ukuranFile > 1000000 ) {
        echo "<script>
-                alert('ukuran gambar terlalu besar!');
+                alert('Image size is too big');
             </script>";
     return false;
    }

@@ -8,7 +8,7 @@ if (!isset($_SESSION["data"])) {
 
 
 require 'admin123/admin/functions.php';
-$siswa = query("SELECT * FROM siswa ORDER BY id");
+$siswa = query("SELECT * FROM raffidevweb ORDER BY id");
 
 // tombol cari diklik 
 if( isset($_POST["cari"]) ) {
@@ -23,8 +23,8 @@ if( isset($_POST["cari"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Agen ISCI</title>
-    <link rel="shortcut icon" href="img/isci777.png" type="image/x-icon">
+    <title>List Agent</title>
+    <link rel="shortcut icon" href="../img/raffidevbulet.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
 
@@ -45,9 +45,9 @@ if( isset($_POST["cari"]) ) {
     <center>
 
 
-        <img src="img/isci777.png" class="header-img" alt="">
+        <img src="../img/raffidevbulet.png" class="header-img" alt="">
 
-        <h1 class="header">Daftar Agen</h1>
+        <h1 class="header">List Agent</h1>
         <div class="line"></div>
 
 
@@ -75,10 +75,10 @@ if( isset($_POST["cari"]) ) {
 
             <tr>
                 <th>No.</th>
-                <th>Gambar</th>
-                <th>Telepon</th>
-                <th>Nama</th>
-                <th>Codename</th>
+                <th>Image</th>
+                <th>Phone Number</th>
+                <th>Name</th>
+                <th>Fakename</th>
             </tr>
 
 
@@ -102,7 +102,7 @@ if( isset($_POST["cari"]) ) {
         </div>
         <br><br><br>
         <footer>
-            <p>Copyright &copy; 2021 - by Raden Sulthan Hadi. All Right Reserved</p>
+            <p>Copyright &copy; 2021 - All Right Reserved.</p>
         </footer>
         <br><br><br><br>
     </center>

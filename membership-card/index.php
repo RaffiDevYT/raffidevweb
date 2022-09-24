@@ -18,7 +18,7 @@ if (!isset($_SESSION["card"])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ISCI Team | ISCI Agent Card</title>
+    <title>Agent Card</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../img/raffidevbulet.png" type="image/x-icon">
@@ -78,7 +78,7 @@ if (!isset($_SESSION["card"])) {
                         </div>";
             } else {
                 echo "<div class='alert alert-success col-sm-6' role='alert'>
-                Congratulations $codename!, your membership card has been made, and you are officially an ISCI agent.
+                Congratulations $codename!, your membership card has been made, and you are officially an agent.
                         </div>";
             }
 

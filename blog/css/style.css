@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=IBM+Plex+Mono:wght@100&family=Koulen&family=Quicksand:wght@300&family=Roboto+Mono:wght@100&display=swap");
+
+body {
+    font-family: "Chakra Petch", sans-serif !important;
+    background-color: #0c1220 !important;
+    overflow-x: hidden !important;
+}
+
+.card-section {
+    margin-top: 100px !important;
+}
+
+.navbar {
+    background-color: #262a35 !important;
+    padding: 30px !important;
+}
+.nav-link {
+    color: aqua !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: aqua !important;
+}
+
+.form-control {
+    background-color: #262a35 !important;
+    border-radius: 5px !important;
+    border: 2px solid aqua !important;
+    color: aqua !important;
+}
+
+.card {
+     border-radius: 20px !important;
+    border: 1px solid #0c1220 !important;
+    margin: 20px;
+    background-color: #262a35 !important;
+}
+
+.card-body {
+   
+    background-color: #262a35 !important;
+    color: aqua !important;
+}
+
+.card-title {
+    padding: 20px;
+    background-color: #0c1220 !important;
+    border-radius: 20px !important;
+}
+
+.header {
+    padding: 30px;
+    background-color: #262a35;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+.line {
+    height: 2px;
+    width: 4rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content {
+    color: aqua;
+    padding: 20px;
+    border-left: 2px solid #262a35;
+}
+
+.btn-outline-dark {
+    transition: 0.2s !important;
+    background-color: #0c1220 !important;
+    color: aqua !important;
+    border: 1px solid aqua !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: aqua !important;
+    color: #0c1220 !important;
+    border-radius: 10px;
+}
+
+.modal-body,
+.modal-header,
+.modal-footer {
+    background-color: #0c1220 !important;
+}
+
+.modal-title {
+    color: aqua;
+}
+
+.btn-close {
+    background-color: aqua !important;
+}
+
+.text-primary {
+    color: aqua !important;
+}
