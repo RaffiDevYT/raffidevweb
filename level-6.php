@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 if (!isset($_SESSION["level-5"])) {
     header("Location: level-5");
@@ -37,11 +37,9 @@ if (!isset($_SESSION["level-5"])) {
                     <div class="line"></div>
                     <br><br>
                     <form action="" method="POST">
-                        <input type="text" name="username" id="username" class="form-control" autocomplete="off"
-                            placeholder="Username">
+                        <input type="text" name="username" id="username" class="form-control" autocomplete="off" placeholder="Username">
                         <br>
-                        <input type="text" name="password" id="password" class="form-control" autocomplete="off"
-                            placeholder="Password">
+                        <input type="text" name="password" id="password" class="form-control" autocomplete="off" placeholder="Password">
                         <br><br>
                         <button type="submit" name="submit" class="submit">Submit</button>
                     </form>
@@ -61,32 +59,23 @@ if (!isset($_SESSION["level-5"])) {
 <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
 <script type="text/javascript" id="script">
-var
-default = window.script.type;
+    var password = window.script.type;
 </script>
 
-<?php 
+<?php
 
-if ( isset($_POST["submit"]) ) {
+if (isset($_POST["submit"])) {
 
-    
-   $username = "text/javascript";
-   $password = "text/javascript";
 
-   if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
-    // $_SESSION["level-6"] = true;
-    // header("Location: level-7.php");
-    // exit;
-    echo "<script>
-    Swal.fire({ title: `Good`,
-                text: `Your username and password are correct!`, 
-                icon: `success`,
-                footer: `<a href='level-7' style='color: #0c1220; background-color: aqua;' class='btn btn-primary'>Continue</a>`,
-                 });
+    $username = "text/javascript";
+    $password = "text/javascript";
 
-</script>";
-   } else {
-    echo "<script>
+    if ($_POST["username"] == $username && $_POST["password"] == $password) {
+        $_SESSION["level-6"] = true;
+        header("Location: level-7");
+        exit;
+    } else {
+        echo "<script>
             Swal.fire({
             icon: `error`,
             title: `Yaahh...`,
@@ -94,7 +83,7 @@ if ( isset($_POST["submit"]) ) {
             
             })
         </script>";
-   }
+    }
 }
 
 ?>

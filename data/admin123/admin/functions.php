@@ -1,6 +1,6 @@
 <?php 
 // koneksi ke database
-$conn = mysqli_connect("sql213.epizy.com", "epiz_32502898", "CG0vsYzFzCqUrS", "epiz_32502898_raffidevweb");
+$conn = mysqli_connect("localhost", "root", "", "test");
 
 
 function query($query) {

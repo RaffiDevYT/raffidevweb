@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 if (!isset($_SESSION["level-10"])) {
     header("Location: level-10");
@@ -38,22 +38,17 @@ if (!isset($_SESSION["level-10"])) {
                     <br><br>
 
                     <form action="" method="POST">
-                        <input type="text" name="username" id="username" class="form-control" autocomplete="off"
-                            placeholder="Username">
+                        <input type="text" name="username" id="username" class="form-control" autocomplete="off" placeholder="Username">
                         <br>
-                        <input type="text" name="password" id="password" class="form-control" autocomplete="off"
-                            placeholder="Password">
+                        <input type="text" name="password" id="password" class="form-control" autocomplete="off" placeholder="Password">
                         <br><br>
                         <button type="submit" name="submit" class="submit">Submit</button>
                     </form>
                     <br>
-                    <p class="text-xl penjelasan text-teal-600">Teknik : <span
-                            class="text-teal-100">Steganography</span></p>
-                    <p class="text-xl penjelasan text-teal-600">Petunjuk : <a href="screenshot.rar"
-                            class="text-teal-100">[Klik Disini]</a>
+                    <p class="text-xl penjelasan text-teal-600">Teknik : <span class="text-teal-100">Steganography</span></p>
+                    <p class="text-xl penjelasan text-teal-600">Petunjuk : <a href="steganography.rar" class="text-teal-100">[Klik Disini]</a>
                     </p>
-                    <p class="text-xl penjelasan text-teal-600">Tools : <a
-                            href="https://stylesuxx.github.io/steganography/" class="text-teal-100">Steganography
+                    <p class="text-xl penjelasan text-teal-600">Tools : <a href="https://stylesuxx.github.io/steganography/" class="text-teal-100">Steganography
                             Online</a>
                     </p>
                 </div>
@@ -66,18 +61,18 @@ if (!isset($_SESSION["level-10"])) {
 <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
 
-<?php 
+<?php
 
-if ( isset($_POST["submit"]) ) {
-    
-   $username = "superAdmin";
-   $password = "password123";
+if (isset($_POST["submit"])) {
 
-   if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
-    $_SESSION["level-11"] = true;
-    header("Location: level-12.php");
-    exit;
-    echo "<script>
+    $username = "superAdmin";
+    $password = "password123";
+
+    if ($_POST["username"] == $username && $_POST["password"] == $password) {
+        $_SESSION["level-11"] = true;
+        header("Location: level-12");
+        exit;
+        echo "<script>
     Swal.fire({ title: `Good`,
                 text: `Your username and password are correct!`, 
                 icon: `success`,
@@ -85,8 +80,8 @@ if ( isset($_POST["submit"]) ) {
                  });
 
 </script>";
-   } else {
-    echo "<script>
+    } else {
+        echo "<script>
             Swal.fire({
             icon: `error`,
             title: `Yaahh...`,
@@ -94,7 +89,7 @@ if ( isset($_POST["submit"]) ) {
             
             })
         </script>";
-   }
+    }
 }
 
 ?>

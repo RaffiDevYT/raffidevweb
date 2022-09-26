@@ -62,7 +62,7 @@ if ( isset($_POST["submit"]) ) {
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
     $_SESSION["level-1"] = true;
-    header("Location: level-2.php");
+    header("Location: level-2");
     exit;
 //     echo "<script>
 //     Swal.fire({ title: `Good`,

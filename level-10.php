@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 if (!isset($_SESSION["level-9"])) {
     header("Location: level-9");
@@ -38,19 +38,16 @@ if (!isset($_SESSION["level-9"])) {
                     <br><br>
 
                     <form action="" method="POST">
-                        <input type="text" name="username" id="username" class="form-control" autocomplete="off"
-                            placeholder="Username">
+                        <input type="text" name="username" id="username" class="form-control" autocomplete="off" placeholder="Username">
                         <br>
-                        <input type="text" name="password" id="password" class="form-control" autocomplete="off"
-                            placeholder="Password">
+                        <input type="text" name="password" id="password" class="form-control" autocomplete="off" placeholder="Password">
                         <br><br>
                         <button type="submit" name="submit" class="submit">Submit</button>
                     </form>
                     <br>
                     <p class="text-xl penjelasan text-teal-600">Teknik : <span class="text-teal-100">File Extention
                             Manipulation</span></p>
-                    <p class="text-xl penjelasan text-teal-600">Petunjuk : <a href="screenshot.rar"
-                            class="text-teal-100">[Klik Disini]</a>
+                    <p class="text-xl penjelasan text-teal-600">Petunjuk : <a href="screenshot.rar" class="text-teal-100">[Klik Disini]</a>
                     </p>
 
                 </div>
@@ -63,28 +60,20 @@ if (!isset($_SESSION["level-9"])) {
 <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 
 
-<?php 
+<?php
 
-if ( isset($_POST["submit"]) ) {
+if (isset($_POST["submit"])) {
 
-    
-   $username = "root";
-   $password = "root";
 
-   if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
-    // $_SESSION["level-10"] = true;
-    // header("Location: level-11.php");
-    // exit;
-    echo "<script>
-    Swal.fire({ title: `Good`,
-                text: `Your username and password are correct!`, 
-                icon: `success`,
-                footer: `<a href='level-11' style='color: #0c1220; background-color: aqua;' class='btn btn-primary'>Continue</a>`,
-                 });
+    $username = "root";
+    $password = "root";
 
-</script>";
-   } else {
-    echo "<script>
+    if ($_POST["username"] == $username && $_POST["password"] == $password) {
+        $_SESSION["level-10"] = true;
+        header("Location: level-11");
+        exit;
+    } else {
+        echo "<script>
             Swal.fire({
             icon: `error`,
             title: `Yaahh...`,
@@ -92,7 +81,7 @@ if ( isset($_POST["submit"]) ) {
             
             })
         </script>";
-   }
+    }
 }
 
 ?>
