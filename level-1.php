@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISCI Team | Level 1</title>
+    <title>Level 1</title>
     <link rel="shortcut icon" href="assets/img/isci777.png" type="image/x-icon">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/challenge.css">
+    <link rel="stylesheet" href="css/challenge.css">
     <link rel="stylesheet" href="node_modules/@sweetalert2/theme-borderless/borderless.css">
 
     <!-- Bootstrap CSS -->
@@ -61,8 +61,8 @@ if ( isset($_POST["submit"]) ) {
    $password = "4}580pCVi*e6G9hu";
 
    if ( $_POST["username"] == $username && $_POST["password"] == $password ) {
-    $_SESSION["level-1"] = true;
-    header("Location: level-2");
+    $_SESSION["level-1.php"] = true;
+    header("Location: level-2.php");
     exit;
 //     echo "<script>
 //     Swal.fire({ title: `Good`,

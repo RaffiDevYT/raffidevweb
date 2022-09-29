@@ -33,16 +33,16 @@ body {
   font-weight: blod;
   transition: 0.4s;
   padding: 20px;
-  color: white;
+  color: #45f3ff;
   font-family: "Inconsolata", monospace;
-  border-radius: 6px;
-  border: 1px solid rgb(0, 94, 94);
-  box-shadow: 0px 14px 56px -11px rgb(0, 94, 94);
+  border-radius: 8px;
+  border: 1px solid #45f3ff;
+  box-shadow: 0px 14px 56px -11px #45f3ff;
 }
 
 .play:hover {
   color: white;
-  background-color: rgb(0, 94, 94);
+  background-color: #45f9ff00;
   border: 1px solid white;
 }
 

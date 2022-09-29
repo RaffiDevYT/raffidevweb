@@ -1,7 +1,7 @@
 <?php 
 // session_start();
-// if (!isset($_SESSION["level-12"])) {
-//     header("Location: level-12");
+// if (!isset($_SESSION["level-12.php"])) {
+//     header("Location: level-12.php");
 //     exit;
 // }
 ?>
@@ -12,11 +12,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISCI Team | Level 13</title>
+    <title>Level 13</title>
     <link rel="shortcut icon" href="assets/img/isci777.png" type="image/x-icon">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/challenge.css">
+    <link rel="stylesheet" href="css/challenge.css">
     <link rel="stylesheet" href="node_modules/@sweetalert2/theme-borderless/borderless.css">
 
     <!-- Bootstrap CSS -->

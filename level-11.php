@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (!isset($_SESSION["level-10"])) {
-    header("Location: level-10");
+if (!isset($_SESSION["level-10.php"])) {
+    header("Location: level-10.php");
     exit;
 }
 ?>
@@ -12,11 +12,11 @@ if (!isset($_SESSION["level-10"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISCI Team | Level 11</title>
+    <title>Level 11</title>
     <link rel="shortcut icon" href="assets/img/isci777.png" type="image/x-icon">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/challenge.css">
+    <link rel="stylesheet" href="css/challenge.css">
     <link rel="stylesheet" href="node_modules/@sweetalert2/theme-borderless/borderless.css">
 
 
@@ -69,8 +69,8 @@ if (isset($_POST["submit"])) {
     $password = "password123";
 
     if ($_POST["username"] == $username && $_POST["password"] == $password) {
-        $_SESSION["level-11"] = true;
-        header("Location: level-12");
+        $_SESSION["level-11.php"] = true;
+        header("Location: level-12.php");
         exit;
         echo "<script>
     Swal.fire({ title: `Good`,
