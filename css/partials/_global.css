@@ -4,6 +4,14 @@
   font: normal bold 50px/ 72px var(--roboto);
 }
 
+.home-title {
+  font: normal bold 35px/ 100px var(--roboto);
+}
+
+body.dark-mode .blue-title {
+  font: normal bold 20px/ 100px var(--roboto);
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }

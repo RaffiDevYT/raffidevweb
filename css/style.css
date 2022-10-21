@@ -87,7 +87,6 @@ input:focus + .slider {
 input:checked + .slider:before {
   transform: translateX(1.5em);
 }
-
 /* end navigation */
 
 /* Banner Area */
@@ -346,5 +345,17 @@ body.dark-mode {
 }
 
 body.dark-mode .title-text {
+  color: #2196f3 !important;
+}
+
+body.dark-mode .white-title {
+  color: #ffffff !important;
+}
+
+body.dark-mode .blue-title {
+  color: #2196f3 !important;
+}
+
+body.dark-mode .home-title {
   color: #2196f3 !important;
 }

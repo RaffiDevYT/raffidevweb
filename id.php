@@ -77,8 +77,8 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
                         <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text">I am Raffi</h1>
-                        <h4 class="title-text text-uppercase">Junior Website Developer</h4>
+                        <h1 class="title-text">Saya Raffi</h1>
+                        <h4 class="title-text text-uppercase">Pengembang Situs Web Junior</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
@@ -107,13 +107,13 @@
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
                         <h2 class="text-uppercase pt-5 title-text">
-                            <span>Let me</span>
-                            <span>introduce</span>
-                            <span>myself</span>
+                            <span>Izinkan</span>
+                            <span>Saya</span>
+                            <span>Memperkenalkan Diri</span>
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para white-title">
-                                Hi, my name is RafiAthallah, I live in the city of Tangerang, I want to become a Cyber ​​Security and Full-Stack Developer. I first learned a programming language when I was in 7th grade, at that time I was looking at YouTube for fun with the search "Learn Website Hacking" and then I saw that website hacking had to be able and understand programming languages ​​too. That's where I became interested in becoming a Web Developer and Cyber ​​Security
+                                Hai, nama saya RafiAthallah, saya tinggal di kota Tangerang, saya ingin menjadi Pengembang Cyber ​​​​Security dan Full-Stack. Saya pertama kali belajar bahasa pemrograman waktu kelas 7 SD, waktu itu saya cari hiburan di youtube dengan search "Belajar Website Hacking" kemudian saya lihat website hacking harus bisa dan mengerti bahasa pemrograman juga. Di situlah saya menjadi tertarik untuk menjadi Pengembang Web dan Keamanan Cyber
                             </p>
                         </div>
                     </div>
@@ -182,16 +182,16 @@
                             <div class="d-flex flex-row years-area">
                                 <h2 class="p-3 years title-text">1</h2>
                                 <h2 class="title-text">
-                                    <span>Year</span>
-                                    <span>Experience</span>
-                                    <span>Working</span>
+                                    <span>Tahun</span>
+                                    <span>Pengalaman</span>
+                                    <span>Kerja</span>
                                 </h2>
                             </div>
                             <div class="d-flex flex-row flex-wrap call-area">
                                 <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
                                 <div class="call-now">
                                     <a href="https://instagram.com/raffidev"
-                                        class="text-uppercase h4 font-roboto">Call Now</a>
+                                        class="text-uppercase h4 font-roboto">Hubungi Saya</a>
                                     <span class="font-roboto py-2">Private</span>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">Skills</h1>
                         <p class="para white-title">
-                            Excellence is not a skill, it's an attitude. · The purpose of education is to make good human beings with skill and expertise.
+                            Keunggulan bukanlah keterampilan, itu sikap. · Tujuan pendidikan adalah untuk membuat manusia yang baik dengan keterampilan dan keahlian.
                         </p>
                     </div>
                 </div>
@@ -226,9 +226,9 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase blue-title">Website developer</h5>
                                     <p class="card-text text-secondary white-title">
-                                       A web developer is a person who creates and develops websites, or in other terms web development.
-                                       Broadly speaking, the responsibility of a web developer is to produce a website or application, such as menu buttons, search boxes, and so on. Apart from that, they also ensure optimal website performance.
-                                       Even so, the role of web developers also depends on the expertise they have.
+                                       Pengembang web adalah orang yang membuat dan mengembangkan situs web, atau dalam istilah lain pengembangan web.
+                                       Secara garis besar, tanggung jawab seorang web developer adalah menghasilkan sebuah website atau aplikasi, seperti tombol menu, kotak pencarian, dan lain sebagainya. Selain itu, mereka juga memastikan kinerja situs web yang optimal.
+                                       Meski begitu, peran web developer juga bergantung pada keahlian yang dimiliki.
                                     </p>
                                 </div>
                             </div>
@@ -242,11 +242,11 @@
                                     <h5 class="card-title text-uppercase font-roboto blue-title">ux/ui desing</h5>
                                     <p class="card-text text-secondary white-title">
 
-                                        User Interface (UI) Designer cannot be separated from User
-                                        Experience (UX) Designer. The UI Designer has the task of
-                                        determining the appearance of the application and/or site. Now
-                                        if the UX Designer determines how an application and/or site can
-                                        operate easily.
+                                        Perancang Antarmuka Pengguna (UI) tidak dapat dipisahkan dari Pengguna
+                                        Pengalaman (UX) Desainer. Perancang UI memiliki tugas
+                                        menentukan tampilan aplikasi dan/atau situs. Sekarang
+                                        jika Perancang UX menentukan bagaimana aplikasi dan/atau situs dapat
+                                        beroperasi dengan mudah.
                                     </p>
                                 </div>
                             </div>
@@ -259,9 +259,9 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto blue-title">web design</h5>
                                     <p class="card-text text-secondary white-title">
-                                        Web design refers to the design of websites that are displayed
-                                        on the internet. It usually refers to the user experience
-                                        aspects of website development rather than software development.
+                                        Desain web mengacu pada desain situs web yang ditampilkan
+                                        di internet. Biasanya mengacu pada pengalaman pengguna
+                                        aspek pengembangan situs web daripada pengembangan perangkat lunak.
                                     </p>
                                 </div>
                             </div>
@@ -274,10 +274,10 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-roboto blue-title">seo optimize</h5>
                                     <p class="card-text text-secondary white-title">
-                                        SEO stands for “search engine optimization.” In simple terms, it
-                                        means the process of improving your site to increase its
-                                        visibility when people search for products or services related
-                                        to your business in Google, Bing, and other search engines.
+                                        SEO adalah singkatan dari “optimasi mesin pencari.” Secara sederhana, itu
+                                        berarti proses meningkatkan situs Anda untuk meningkatkannya
+                                        visibilitas ketika orang mencari produk atau layanan yang terkait
+                                        untuk bisnis Anda di Google, Bing, dan mesin pencari lainnya.
                                     </p>
                                 </div>
                             </div>
@@ -320,21 +320,21 @@
                             </div>
                         </div>
                     </div>
-                   <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/project2.png">
-                                    <img src="./img/portfolio/project2.png" alt="portfolio-2"
+                                <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                    <img src="./img/portfolio/p2.jpg" alt="portfolio-2"
                                         class="img-fluid">
                                 </a>
                             </div>
                             <div class="title py-4">
-                                <h4 class="text-uppercase title-text">Alquran Digital</h4>
+                                <h4 class="text-uppercase title-text">Paint Wall</h4>
                                 <span class="text-secondary">Popular, Portfolio</span>
                             </div>
                         </div>
                     </div>
-                   <!-- <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
                         <div class="our-project">
                             <div class="img">
                                 <a class="test-popup-link" href="./img/portfolio/p3.jpg">
@@ -406,15 +406,15 @@
                     <div class="about-title">
                         <h1 class="text-uppercase title-h1 title-text">Hacking Comunity</h1>
                         <p class="para white-title">
-                            ISCI Team is a community where the activists of Web Developers and
-                            Ethical Hacking are. ISCI Team was founded on the 12th of the 2nd
-                            month of 2021 and was initiated by 3 people. The initial purpose of
-                            forming the ISCI Team was only for
-                            Hacking community, then switch goals to become a cyber security and
-                            web developer community and oversee crime in the internet world.
+                            Tim ISCI adalah komunitas tempat para aktivis Pengembang Web dan
+                            Peretasan Etis adalah. Tim ISCI didirikan pada tanggal 12 tanggal 2
+                            bulan 2021 dan diprakarsai oleh 3 orang. Tujuan awal dari
+                            membentuk Tim ISCI hanya untuk
+                            Komunitas peretasan, lalu beralih tujuan menjadi keamanan siber dan
+                            komunitas pengembang web dan mengawasi kejahatan di dunia internet.
                         </p>
                         <a href="https://isci.rf.gd/"><span
-                                style="color: var(--primary-color);">Website for ISCI
+                                style="color: var(--primary-color);">Website ISCI
                                 Community</span></a>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
         <footer class="footer-area">
             <div class="container">
                 <div class="social text-center dark:text-wh">
-                    <h5 class="text-uppercase title-text">Follow me</h5>
+                    <h5 class="text-uppercase title-text">Ikuti Saya</h5>
                     <a href="https://github.com/RaffiDevYT"><i class="fab fa-github"></i></a>
                     <a href="https://wa.me/6281212148905"><i class="fab fa-whatsapp"></i></a>
                     <a href="https://facebook.com/Rafi Athallah"><i class="fab fa-facebook"></i></a>

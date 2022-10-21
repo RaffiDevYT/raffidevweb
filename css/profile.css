@@ -1,0 +1,105 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(45deg, #11f16e 0%, #2196f3 90%);
+  font-family: "poppins";
+  color: #eaeaea;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  background-color: #1c1c1c;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.35);
+  padding: 50px 0;
+}
+.card .img_box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 2px solid #2196f3;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+.card .img_box img {
+  width: 100%;
+  border-radius: 50%;
+}
+.card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+}
+.card h6 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px 0px 5px 0px;
+}
+.card p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.card .buttons .btn,
+.card .buttons .btn.border_btn:hover {
+  background-color: #2196f3;
+  text-decoration: none;
+  padding: 7px 25px;
+  font-size: 14px;
+  font-weight: 400px;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid #2196f3;
+  margin: 0px 3px;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.card .buttons .btn:hover,
+.card .buttons .btn.border_btn {
+  background-color: transparent;
+  color: #2196f3;
+}
+.card .social {
+  margin: 30px 0px 0px;
+}
+.card .social ul {
+  padding: 0px;
+  margin: 0;
+}
+.card .social ul li {
+  list-style: none;
+  display: inline-block;
+}
+.card .social ul li i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2196f3;
+  border-radius: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card .social ul li i:hover {
+  background-color: red;
+}
+.card .social ul li i.fa-github:hover {
+  background-color: #3b5999;
+}
+.card .social ul li i.fa-linkedin-in:hover {
+  background-color: #0077b5;
+}
+.card .social ul li i.fa-twitter:hover {
+  background-color: #55acee;
+}
+.card .social ul li i.fa-instagram:hover {
+  background-color: #e4405f;
+}
