@@ -6,13 +6,14 @@
 //     exit;
 // }
 
+require 'config.php';
 require 'functions.php';
 
 // ambil data di URL
 $id = $_GET["id"];
 
 // query data siswa berdasarkan id
-$mhs = query("SELECT * FROM siswa WHERE id = $id")["0"];
+$mhs = query("SELECT * FROM raffidevweb WHERE id = $id")["0"];
 
 
 // cek apakah tombol submit sudah ditekan atau belum
@@ -46,7 +47,7 @@ if( isset($_POST["submit"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Changed Data Agent</title>
+    <title>Change Data Agent</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -55,7 +56,7 @@ if( isset($_POST["submit"]) ) {
 <body>
     <center>
         <br><br><br><br>
-        <h1>Changed Data Agent</h1>
+        <h1>Change Data Agent</h1>
         <div class="line"></div>
         <br>
 

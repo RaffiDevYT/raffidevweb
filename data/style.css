@@ -8,8 +8,8 @@ body ul {
   list-style: none;
 }
 body {
-  color: aqua !important;
-  background-color: rgb(0, 4, 29) !important;
+  color: #2196f3 !important;
+  background-color: #0f0f0e !important;
 }
 .header-img {
   width: 300px;
@@ -26,40 +26,40 @@ body {
 }
 table {
   border-radius: 10px !important;
-  border: 2px solid aqua;
+  border: 2px solid #2196f3;
 }
 table tr th {
-  color: aqua;
+  color: #2196f3;
 }
 table td {
-  color: aqua;
+  color: #2196f3;
 }
 .input-control {
   transition: 0.2s;
   border-radius: 20px;
-  color: aqua;
+  color: #2196f3;
   padding: 10px 20px 20px 20px;
-  border: 1px solid aqua !important;
-  background-color: rgb(0, 4, 29) !important;
+  border: 1px solid #2196f3 !important;
+  background-color: #0f0f0e !important;
 }
 .input-control:focus {
-  border: 1px solid aqua !important;
-  box-shadow: 0px 14px 56px -11px aqua !important;
+  border: 1px solid #2196f3 !important;
+  box-shadow: 0px 14px 56px -11px #2196f3 !important;
 }
 .btn-primary,
 .btn-danger {
-  background-color: aqua !important;
-  color: rgb(0, 4, 29) !important;
-  box-shadow: 0px 14px 56px -11px aqua !important;
+  background-color: #2196f3 !important;
+  color: #0f0f0e !important;
+  box-shadow: 0px 14px 56px -11px #2196f3 !important;
 }
-.back {
+.logout {
   padding: 10px 20px 10px 20px;
-  border: 1px solid aqua;
+  border: 1px solid #2196f3;
   transition: 0.3s;
   margin-left: 20px;
+  border-radius: 10px;
 }
-.back:hover {
-  color: rgb(0, 4, 29);
-  background-color: aqua;
+.logout:hover {
+  background-color: #2196f3;
   border-radius: 10px;
 }

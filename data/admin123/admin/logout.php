@@ -1,14 +1,8 @@
-<?php 
-session_start();
-$_SESSION = [];
-session_unset();
-session_destroy();
+<?php
+include "config.php";
 
-setcookie('id', '', time() - 3600);
-setcookie('key', '', time() - 3600);
+if(@$_SESSION['STATUS_LOGIN'] == "OKE"){
+    session_destroy();
+}
 
-
-header("Location: login.php");
-exit;
-
-?>
+header("location:login.php");

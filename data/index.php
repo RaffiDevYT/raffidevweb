@@ -1,11 +1,9 @@
 <?php 
-
-session_start();
-if (!isset($_SESSION["data"])) {
-    header("Location: login.php");
-    exit;
+include "admin123/admin/config.php";
+// cek udah login apa belum
+if(@$_SESSION['STATUS_LOGIN'] != "OKE"){
+    header("location:login.php");
 }
-
 
 require 'admin123/admin/functions.php';
 $siswa = query("SELECT * FROM raffidevweb ORDER BY id");
@@ -14,8 +12,8 @@ $siswa = query("SELECT * FROM raffidevweb ORDER BY id");
 if( isset($_POST["cari"]) ) {
     $siswa = cari($_POST["keyword"]);
 }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,23 +21,18 @@ if( isset($_POST["cari"]) ) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List Agent</title>
+    <title>Agent Page</title>
     <link rel="shortcut icon" href="../img/raffidevbulet.png" type="image/x-icon">
-
     <link rel="stylesheet" href="style.css">
 
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-
     <br><br>
-    <a href="../" class="back">Back</a>
+    <a href="logout.php" class="logout">Logout</a>
 
     <br><br><br>
     <center>

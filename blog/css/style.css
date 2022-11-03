@@ -2,7 +2,7 @@
 
 body {
   font-family: "Chakra Petch", sans-serif !important;
-  background-color: #0c1220 !important;
+  background-color: #222329 !important;
   overflow-x: hidden !important;
 }
 
@@ -15,43 +15,43 @@ body {
   padding: 30px !important;
 }
 .nav-link {
-  color: #45f3ff !important;
+  color: #2196f3 !important;
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: #45f3ff !important;
+  color: #2196f3 !important;
 }
 
 .form-control {
   background-color: #262a35 !important;
   border-radius: 5px !important;
-  border: 2px solid #45f3ff !important;
-  color: #45f3ff !important;
+  border: 2px solid #2196f3 !important;
+  color: #2196f3 !important;
 }
 
 .card {
   border-radius: 20px !important;
-  border: 1px solid #0c1220 !important;
+  border: 1px solid #222329 !important;
   margin: 20px;
   background-color: #262a35 !important;
 }
 
 .card-body {
   background-color: #262a35 !important;
-  color: #45f3ff !important;
+  color: #2196f3 !important;
 }
 
 .card-title {
   padding: 20px;
-  background-color: #0c1220 !important;
+  background-color: #222329 !important;
   border-radius: 20px !important;
 }
 
 .header {
   padding: 30px;
   background-color: #262a35;
-  color: #45f3ff;
+  color: #2196f3;
   margin-bottom: 40px;
 }
 
@@ -63,38 +63,38 @@ body {
 }
 
 .content {
-  color: #45f3ff;
+  color: #2196f3;
   padding: 20px;
   border-left: 2px solid #262a35;
 }
 
 .btn-outline-dark {
   transition: 0.2s !important;
-  background-color: #0c1220 !important;
-  color: #45f3ff !important;
-  border: 1px solid #45f3ff !important;
+  background-color: #222329 !important;
+  color: #2196f3 !important;
+  border: 1px solid #2196f3 !important;
 }
 
 .btn-outline-dark:hover {
-  background-color: #45f3ff !important;
-  color: #0c1220 !important;
+  background-color: #2196f3 !important;
+  color: #222329 !important;
   border-radius: 10px;
 }
 
 .modal-body,
 .modal-header,
 .modal-footer {
-  background-color: #0c1220 !important;
+  background-color: #222329 !important;
 }
 
 .modal-title {
-  color: #45f3ff;
+  color: #2196f3;
 }
 
 .btn-close {
-  background-color: #45f3ff !important;
+  background-color: #2196f3 !important;
 }
 
 .text-primary {
-  color: #45f3ff !important;
+  color: #2196f3 !important;
 }

@@ -138,7 +138,7 @@ require "../function/koneksi.php";
           <p class="card-text"><?= $data["deskripsi"] ?></p>
           <p class="text-muted"><?= $data["waktu"] ?></p>
           <a href="view.php?id=<?= $data["id"] ?>" class="btn btn-primary">View More <i class="bi bi-eye"></i></a>
-          <a href="edit.php?id=<?= $data["id"] ?>" class="btn btn-primary">Edit <i class="bi bi-pencil-square"></i></a>
+          <a href="edit.php?id=<?= $data["id"] ?>" class="btn btn-warning">Edit <i class="bi bi-pencil-square"></i></a>
           <a href="delete.php?id=<?= $data["id"] ?>" class="btn btn-danger" onclick="return confirm('yakin ingin menghapus postingan ini?');">Delete <i class="bi bi-trash3"></i></a>
         </div>
       </div>

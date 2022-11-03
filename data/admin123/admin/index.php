@@ -1,9 +1,8 @@
 <?php 
-session_start();
-
-if ( !isset($_SESSION["admin"]) ) {
-    header("Location: login.php");
-    exit;
+include "config.php";
+// cek udah login apa belum
+if(@$_SESSION['STATUS_LOGIN'] != "OKE"){
+    header("location:login.php");
 }
 
 require 'functions.php';
@@ -13,8 +12,8 @@ $siswa = query("SELECT * FROM raffidevweb ORDER BY id");
 if( isset($_POST["cari"]) ) {
     $siswa = cari($_POST["keyword"]);
 }
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,15 +28,12 @@ if( isset($_POST["cari"]) ) {
     <!-- CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
     <br><br>
-    <a href="login.php" class="back">Back</a>
+    <a href="logout.php" class="logout">Logout</a>
 
     <br><br><br>
     <center>
@@ -56,7 +52,7 @@ if( isset($_POST["cari"]) ) {
             </svg></a>
         <br><br>
 
-        <form action="" method="post">
+        <form action="" method="POST">
 
             <input type="text" class="input-control" name="keyword" size="40" autofocus
                 placeholder="Search Some Data Agent" autocomplete="off"><br><br>
@@ -92,7 +88,7 @@ if( isset($_POST["cari"]) ) {
                 <td><?= $i; ?></td>
                 <td>
 
-                    <a href="ubah.php?id=<?= $row["id"]; ?>" class="btn btn-primary"><svg
+                    <a href="ubah.php?id=<?= $row["id"]; ?>" class="btn btn-warning"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-pencil-square" viewBox="0 0 16 16">
                             <path
@@ -101,7 +97,7 @@ if( isset($_POST["cari"]) ) {
                                 d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
                         </svg></a>
                     <a href="hapus.php?id=<?= $row["id"]; ?>"
-                        onclick="return confirm('Are you sure you want to delete this data?');" class="btn btn-danger"><svg
+                        onclick="return confirm('Are you sure you want to delete this data?');" class="btn btn-primary"><svg
                             xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-trash-fill" viewBox="0 0 16 16">
                             <path
