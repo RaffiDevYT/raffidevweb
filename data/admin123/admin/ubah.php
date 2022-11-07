@@ -9,19 +9,19 @@
 require 'config.php';
 require 'functions.php';
 
-// ambil data di URL
+// retrieve data in URL
 $id = $_GET["id"];
 
-// query data siswa berdasarkan id
+// Query student data by ID
 $mhs = query("SELECT * FROM raffidevweb WHERE id = $id")["0"];
 
 
-// cek apakah tombol submit sudah ditekan atau belum
+// Check whether the submit button has been pressed or not
 if( isset($_POST["submit"]) ) {
 
 
 
- // cek apakah data berhasil di ubah atau belum
+ // Check whether the data has been successfully changed or not
  if( ubah($_POST) > 0 ) {
      echo "
      <script>

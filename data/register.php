@@ -19,14 +19,14 @@ if(@$_POST['submit']){
         $insert = mysqli_query($conn, $query);
 
         if($insert){
-            // berhasil insert
+            // successfuly insert
             echo "<script>alert('Successfully created an account');document.location.href = 'login.php'</script>";die;
         }else{
-            // gagal insert
+            // failed to insert
             echo "<script>alert('Failed to create an account');window.history.back();</script>";die;
         }
     }else{
-        // username sudah ada
+        // username already registered
         echo "<script>alert('Username already registered');window.history.back();</script>";die;
     }
 }

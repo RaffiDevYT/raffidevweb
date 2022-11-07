@@ -15,7 +15,7 @@ if(@$_POST['submit']){
     // echo print_r($get);die;
 
     if($get){
-        // login berhasil
+        // Successfuly Login
 
         $_SESSION["STATUS_LOGIN"] = "OKE";
         $_SESSION["AUTH_USERNAME"] = $get[0]['username'];
@@ -23,8 +23,8 @@ if(@$_POST['submit']){
 
         header("location:index.php");
     }else{
-        // akun tidak ditemukan
-        echo "<script>alert('Username Atau Password Salah');window.history.back();</script>";die;
+        // Account not found
+        echo "<script>alert('Wrong username or password!');window.history.back();</script>";die;
     }
 }
 ?>

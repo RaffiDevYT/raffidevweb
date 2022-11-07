@@ -67,11 +67,11 @@
 
 require 'config.php';
 require 'functions.php';
-// cek apakah tombol submit sudah ditekan atau belum
+// Check whether the submit button has been pressed or not
 if( isset($_POST["submit"]) ) {
 
     
- // cek apakah data berhasil di tambahkan atau belum
+ // Check whether the data was successfully added or not
  if( tambah($_POST) > 0 ) {
      echo "
      <script>
