@@ -1,3 +1,0 @@
-<script>cked By SMA AL AZH
-   alert("Kurang Tawu)
-</script>

@@ -57,7 +57,7 @@ $(document).ready(function () {
 });
 
 // Darkmode toggle
-function darkMode() {
-  var body = document.querySelector("body");
-  body.classList.toggle("dark-mode");
-}
+// function darkMode() {
+//   var body = document.querySelector("body");
+//   body.classList.toggle("dark-mode");
+// }
