@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = mysqli_connect("localhost", "root", "", "test");
+$conn = mysqli_connect("localhost", "root", "", "raffidev_raffidev.com");
 
 function query($query) {
     global $conn;

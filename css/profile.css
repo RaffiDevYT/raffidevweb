@@ -89,17 +89,17 @@ body {
   transition: all 0.3s;
 }
 .card .social ul li i:hover {
-  background-color: red;
+  background-color: #fff;
 }
 .card .social ul li i.fa-github:hover {
-  background-color: #3b5999;
+  background-color: #fff;
 }
 .card .social ul li i.fa-linkedin-in:hover {
-  background-color: #0077b5;
+  background-color: #fff;
 }
 .card .social ul li i.fa-twitter:hover {
-  background-color: #55acee;
+  background-color: #fff;
 }
 .card .social ul li i.fa-instagram:hover {
-  background-color: #f2264b;
+  background-color: #fff;
 }

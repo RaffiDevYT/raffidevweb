@@ -2,7 +2,7 @@
 
 body {
   font-family: "Chakra Petch", sans-serif !important;
-  background-color: #222329 !important;
+  background-color: #2d2b2b !important;
   overflow-x: hidden !important;
 }
 
@@ -11,35 +11,35 @@ body {
 }
 
 .navbar {
-  background-color: #262a35 !important;
+  background-color: #2d2b2b !important;
   padding: 30px !important;
 }
 .nav-link {
-  color: #2196f3 !important;
+  color: #007bff !important;
 }
 
 .navbar-brand {
   font-weight: bold;
-  color: #2196f3 !important;
+  color: #007bff !important;
 }
 
 .form-control {
-  background-color: #262a35 !important;
+  background-color: #2d2b2b !important;
   border-radius: 5px !important;
-  border: 2px solid #2196f3 !important;
-  color: #2196f3 !important;
+  border: 2px solid #007bff !important;
+  color: #007bff !important;
 }
 
 .card {
   border-radius: 20px !important;
-  border: 1px solid #222329 !important;
+  border: 1px solid #262a35 !important;
   margin: 20px;
   background-color: #262a35 !important;
 }
 
 .card-body {
   background-color: #262a35 !important;
-  color: #2196f3 !important;
+  color: #007bff !important;
 }
 
 .card-title {
@@ -50,8 +50,8 @@ body {
 
 .header {
   padding: 30px;
-  background-color: #262a35;
-  color: #2196f3;
+  background-color: #2d2b2b;
+  color: #007bff;
   margin-bottom: 40px;
 }
 
@@ -63,22 +63,22 @@ body {
 }
 
 .content {
-  color: #2196f3;
+  color: #007bff;
   padding: 20px;
-  border-left: 2px solid #262a35;
+  border-left: 2px solid #2d2b2b;
 }
 
 .btn-outline-dark {
   transition: 0.2s !important;
   background-color: #222329 !important;
-  color: #2196f3 !important;
-  border: 1px solid #2196f3 !important;
+  color: #007bff !important;
+  border: 1px solid #007bff !important;
 }
 
 .btn-outline-dark:hover {
-  background-color: #2196f3 !important;
+  background-color: #007bff !important;
   color: #222329 !important;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .modal-body,
@@ -88,13 +88,13 @@ body {
 }
 
 .modal-title {
-  color: #2196f3;
+  color: #007bff;
 }
 
 .btn-close {
-  background-color: #2196f3 !important;
+  background-color: #007bff !important;
 }
 
 .text-primary {
-  color: #2196f3 !important;
+  color: #007bff !important;
 }

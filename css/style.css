@@ -1,13 +1,20 @@
-/* import fonts from fonts.css file */
-@import url(./fonts.css);
-
 /* css variables */
 @import url(./partials/_variables.css);
 
 /* import global styling */
 @import url(./partials/_global.css);
 
+/* importfont */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* start navigation */
+
+body {
+  line-height: 1.5;
+  font-family: -apple-system, "Poppins", sans-serif, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 1rem 0 5rem;
@@ -18,7 +25,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link {
-  font: normal 500 15px/2px var(--roboto);
+  font: normal 500 15px/2px var(--poppins);
   text-transform: uppercase;
   padding: 1.7rem;
   color: #2196f3;
@@ -117,21 +124,26 @@ input:checked + .slider:before {
 }
 
 .site-main .site-banner .banner-image > img {
-  padding: 0rem 0;
-  width: 90rem;
+  padding: 5rem 0;
+  width: 100rem;
 }
 
 /* End Banner Area */
 
 /* Start About Area */
 
+.aboutme {
+  padding: 4rem, 5rem;
+  height: 0.5px;
+}
+
 .site-main .about-area {
-  padding: 8rem 5rem;
+  padding: 10rem 5rem;
 }
 
 .site-main .about-area .about-title h2 > span {
   display: block;
-  font: normal bold 49px/ 60px var(--roboto);
+  font: normal bold 49px/ 60px var(--poppins);
   letter-spacing: 21px;
 }
 
@@ -221,13 +233,13 @@ input:checked + .slider:before {
 }
 
 .site-main .brand-area .experience-area .years-area .years {
-  font: normal bold 84px/40px var(--roboto);
+  font: normal bold 84px/40px var(--poppins);
   color: var(--primary-color2);
   z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span {
-  font: normal 600 22px/30px var(--roboto);
+  font: normal 600 22px/30px var(--poppins);
 }
 
 .site-main .brand-area .experience-area .call-area {
@@ -273,7 +285,7 @@ input:checked + .slider:before {
 .site-main .project-area .button-group button {
   background: transparent;
   border: none;
-  font: normal 500 16px/130px var(--roboto);
+  font: normal 500 16px/130px var(--poppins);
   text-transform: uppercase;
 }
 
@@ -282,7 +294,7 @@ input:checked + .slider:before {
 }
 
 .site-main .project-area .grid .our-project > .title h4 {
-  font: normal 700 25px/12px var(--roboto);
+  font: normal 700 25px/12px var(--poppins);
 }
 
 .site-main .project-area .grid .our-project .img a:hover img {
@@ -312,7 +324,7 @@ input:checked + .slider:before {
 }
 
 .site-main .about-area .client .about-client h4 {
-  font: normal 500 21px/ 20px var(--roboto);
+  font: normal 500 21px/ 20px var(--poppins);
 }
 
 .site-main .about-area .client .about-client p {
@@ -340,7 +352,7 @@ footer.footer-area {
 }
 
 footer.footer-area .social h5 {
-  font: normal 500 23px/ 30px var(--roboto);
+  font: normal 500 23px/ 30px var(--poppins);
 }
 
 footer.footer-area .social a > i {
@@ -355,7 +367,7 @@ footer.footer-area .social a:hover > i {
 
 /* End Footer */
 
-/* Dark Mode */
+/* Dark Mode
 
 body.dark-mode {
   background-color: #222329 !important;
@@ -375,7 +387,7 @@ body.dark-mode .blue-title {
 
 body.dark-mode .home-title {
   color: #007bff !important;
-}
+} */
 
 /* Footer */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
@@ -420,7 +432,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #007bff;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -481,3 +493,58 @@ ul {
   font-size: 2rem;
 }
 /*  End Footer */
+
+.card-about-left {
+  transform: translateX(-650px);
+  --bs-card-border-radius: 20px;
+  --bs-card-inner-border-radius: calc(20px - 1px);
+  --bs-card-bg: #007bff;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border-radius: var(--bs-card-border-radius);
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 0 #222;
+  transition: all 0.5s ease;
+}
+
+.card-about-right {
+  transform: translateY(-320px);
+  --bs-card-border-radius: 20px;
+  --bs-card-inner-border-radius: calc(20px - 1px);
+  --bs-card-bg: #e91e63;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border-radius: var(--bs-card-border-radius);
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 0 #222;
+  transition: all 0.5s ease;
+}
+
+.goog-te-combo {
+  background-color: #24262b;
+  color: #007bff;
+  padding: 10px;
+  border-radius: 6.5px;
+}
+
+.hacking {
+  margin-bottom: -100px;
+}
+
+.button-hacking {
+  margin-top: -100px;
+}
+
+.lastline {
+  background-color: #24262b !important;
+  padding-bottom:20px !important;
+}
+
