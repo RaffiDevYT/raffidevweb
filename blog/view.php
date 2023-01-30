@@ -49,7 +49,7 @@ $result = mysqli_fetch_array($query);
         <div class="row">
             <div class="col-md-12">
                 <div class="content">
-                    <p><?= $result["pesan"] ?></p>
+                    <!-- <p><?= $result["pesan"] ?></p> -->
                 </div>
             </div>
         </div>

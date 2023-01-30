@@ -75,3 +75,19 @@
     padding: 3% 4%;
   }
 }
+@media screen and (max-width: 768px) {
+  .about-title h1 {
+    margin-bottom: 7px !important;
+  }
+  .about-title .button-hacking {
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+  }
+    .card-about-left {
+      transform: translateX(0);
+    }
+    .card-about-right {
+      margin-top: 20px;
+      transform: translateY(0);
+    }
+}
