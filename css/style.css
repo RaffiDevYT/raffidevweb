@@ -7,13 +7,13 @@
 /* importfont */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* start navigation */
 
 body {
   line-height: 1.5;
-  font-family: -apple-system, "Poppins", sans-serif, "BlinkMacSystemFont", "Segoe UI", "Roboto", sans-serif, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -115,7 +115,7 @@ input:checked + .slider:before {
 
 .site-main .site-banner .site-title h1 {
   font-size: 5rem;
-  color: #007bff;
+  color: #00264B;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -367,28 +367,6 @@ footer.footer-area .social a:hover > i {
 
 /* End Footer */
 
-/* Dark Mode
-
-body.dark-mode {
-  background-color: #222329 !important;
-}
-
-body.dark-mode .title-text {
-  color: #007bff !important;
-}
-
-body.dark-mode .white-title {
-  color: #ffffff !important;
-}
-
-body.dark-mode .blue-title {
-  color: #007bff !important;
-}
-
-body.dark-mode .home-title {
-  color: #007bff !important;
-} */
-
 /* Footer */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 body {
@@ -432,7 +410,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #007bff;
+  background-color: #00264B;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -498,7 +476,7 @@ ul {
   transform: translateX(-650px);
   --bs-card-border-radius: 20px;
   --bs-card-inner-border-radius: calc(20px - 1px);
-  --bs-card-bg: #007bff;
+  --bs-card-bg: #00264B;
   display: flex;
   flex-direction: column;
   word-wrap: break-word;
@@ -530,7 +508,7 @@ ul {
 
 .goog-te-combo {
   background-color: #24262b;
-  color: #007bff;
+  color: #024485;
   padding: 10px;
   border-radius: 6.5px;
 }
@@ -547,4 +525,5 @@ ul {
   background-color: #24262b !important;
   padding-bottom:20px !important;
 }
+
 

@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 body {
-  background: linear-gradient(45deg, #11f16e 0%, #2196f3 90%);
+  background: linear-gradient(45deg, #11f16e 0%, #024485 90%);
   font-family: "poppins";
   color: #eaeaea;
   text-align: center;
@@ -26,7 +26,7 @@ body {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  border: 2px solid #2196f3;
+  border: 2px solid #024485;
   padding: 8px;
   margin-bottom: 20px;
 }
@@ -50,14 +50,14 @@ body {
 }
 .card .buttons .btn,
 .card .buttons .btn.border_btn:hover {
-  background-color: #2196f3;
+  background-color: #024485;
   text-decoration: none;
   padding: 7px 25px;
   font-size: 14px;
   font-weight: 400px;
   color: #fff;
   display: inline-block;
-  border: 1px solid #2196f3;
+  border: 1px solid #024485;
   margin: 0px 3px;
   border-radius: 3px;
   transition: all 0.3s;
@@ -65,7 +65,7 @@ body {
 .card .buttons .btn:hover,
 .card .buttons .btn.border_btn {
   background-color: transparent;
-  color: #2196f3;
+  color: #024485;
 }
 .card .social {
   margin: 30px 0px 0px;
@@ -82,7 +82,7 @@ body {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #2196f3;
+  background-color: #024485;
   border-radius: 50px;
   margin: 0 5px;
   cursor: pointer;

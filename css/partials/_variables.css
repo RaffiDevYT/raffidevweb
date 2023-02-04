@@ -9,14 +9,14 @@ body {
 /* CSS Variables */
 
 :root {
-  --primary-color: #007bff;
-  --primary-color2: #007bff;
+  --primary-color: #00264B;
+  --primary-color2: #00264B;
   --title-color: #0f0f0e;
   --hitam: #24262b;
   --text-color: #2d2b2b;
   --border-color: #201f1f17;
-  --gradient-color: linear-gradient(90deg, #007bff 0%, #007bff 100%);
-  --shadow-color: 0px 10px 30px rgb(28, 147, 245);
+  --gradient-color: linear-gradient(90deg, #00264B 0%, #00264B 100%);
+  --shadow-color: 0px 10px 30px rgb(0, 38, 75);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
   /* font family variables. */
